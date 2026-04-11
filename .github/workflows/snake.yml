@@ -1,33 +1,37 @@
 name: generate-dark-core-snake
 
 on:
+  # Run automatically every day at midnight
   schedule:
     - cron: "0 0 * * *" 
+  # Allow manual trigger from the Actions tab
   workflow_dispatch:
+  # Run on every push to the main branch
   push:
     branches:
     - main
 
 jobs:
   generate:
+    # Explicitly grant write permissions to the GITHUB_TOKEN
     permissions: 
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
     
     steps:
-      - name: generate dark snake
+      - name: Generate Custom Cyberpunk Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            # PALETTE: Deep Purple & Neon Blue to match the GIF
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D1FF&color_dots=#0d1117,#1c1624,#430075,#7d00b3,#bd00ff
           
-      - name: push to output branch
+      - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
+          # Pushes the dist/ folder to an isolated 'output' branch
           target_branch: output
           build_dir: dist
         env:
