@@ -61,16 +61,3 @@
 </div>
 
 <br />
-
-<!-- ========================================== -->
-<!-- 5. COM_LINK (Minimalist Contact)           -->
-<!-- ========================================== -->
-<div align="center">
-  <a href="https://linkedin.com/in/YOUR_LINK">
-    <img src="https://img.shields.io/badge/CONNECT-000000?style=for-the-badge&logo=linkedin&logoColor=00D1FF" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:YOUR_EMAIL">
-    <img src="https://img.shields.io/badge/COMMUNICATE-000000?style=for-the-badge&logo=minutemailer&logoColor=00D1FF" alt="Email" />
-  </a>
-</div>
