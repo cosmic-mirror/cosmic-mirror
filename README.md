@@ -19,8 +19,8 @@
 <!-- ========================================== -->
 <div align="center">
   <blockquote>
-    <p><i>"I don't just write syntax; I orchestrate intelligence."</i></p>
-    <p>Leveraging AI to bridge the gap between abstract thought and deployed reality.</p>
+    <p><i>"I don't write syntax; I orchestrate intelligence."</i></p>
+    <p>Leveraging tech & AI to bridge the gap between cognition and reality.</p>
   </blockquote>
 </div>
 
