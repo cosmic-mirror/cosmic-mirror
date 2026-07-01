@@ -12,6 +12,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=4000&pause=1000&color=BD00FF&center=true&vCenter=true&width=500&lines=AHMED_ESLAM;AI_AUGMENTED_ARCHITECT;SYNTHESIZING_COMPLEXITY;SYSTEMS_ONLINE" alt="Typing SVG" />
 </div>
 
+<br />
+<br />
 
 <!-- ========================================== -->
 <!-- 2. AUGMENTED TOOLKIT (Sleek Black/Neon)    -->
@@ -23,7 +25,7 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Systems_Thinker-000000?style=for-the-badge&logo=graphql&logoColor=BD00FF" alt="Systems thinker" />
   <img src="https://img.shields.io/badge/PKMer-000000?style=for-the-badge&logo=obsidian&logoColor=BD00FF" alt="PKMer" />
-  <img src="https://img.shields.io/badge/Prompt_Engineer-000000?style=for-the-badge&logo=chatgpt&logoColor=BD00FF" alt="Prompt Engineer" />
+  <img src="https://img.shields.io/badge/Prompt_Engineer-000000?style=for-the-badge&logo=openai&logoColor=BD00FF" alt="Prompt Engineer" />
   <img src="https://img.shields.io/badge/Developer-000000?style=for-the-badge&logo=github&logoColor=BD00FF" alt="Developer" />
 </div>
 
