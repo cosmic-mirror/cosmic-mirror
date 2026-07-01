@@ -35,18 +35,17 @@
 <!-- ========================================== -->
 <!-- 3. CONTINUOUS TELEMETRY (The Snake)        -->
 <!-- ========================================== -->
-<!-- No clunky stat boxes. Just pure, moving data visualization. -->
 <div align="center">
   <p align="center" style="font-family: monospace; color: #666;">
     <code>>_ OUTPUT_NODE_ACTIVITY : DYNAMIC_WAVE_ROUTING</code>
   </p>
   <picture>
-    <!-- Dark Mode Snake (Pulls the deep neon math wave we generated) -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spactable/spactable/output/github-contribution-grid-snake-dynamic.svg">
+    <!-- Dark Mode Snake -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cosmic-mirror/cosmic-mirror/output/github-contribution-grid-snake-dynamic.svg?v=2">
     <!-- Light Mode Fallback -->
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/spactable/spactable/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cosmic-mirror/cosmic-mirror/output/github-contribution-grid-snake.svg?v=2">
     <!-- General Fallback -->
-    <img alt="dynamic snake animation" src="https://raw.githubusercontent.com/spactable/spactable/output/github-contribution-grid-snake-dynamic.svg" />
+    <img alt="dynamic snake animation" src="https://raw.githubusercontent.com/cosmic-mirror/cosmic-mirror/output/github-contribution-grid-snake-dynamic.svg?v=2" />
   </picture>
 </div>
 
