@@ -12,22 +12,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=4000&pause=1000&color=BD00FF&center=true&vCenter=true&width=500&lines=AHMED_ESLAM;AI_AUGMENTED_ARCHITECT;SYNTHESIZING_COMPLEXITY;SYSTEMS_ONLINE" alt="Typing SVG" />
 </div>
 
-<br />
 
 <!-- ========================================== -->
-<!-- 2. THE MANIFESTO (Vibe & Concept)          -->
-<!-- ========================================== -->
-<div align="center">
-  <blockquote>
-    <p><i>"I don't write syntax; I orchestrate intelligence."</i></p>
-    <p>Leveraging tech & AI to bridge the gap between cognition and reality.</p>
-  </blockquote>
-</div>
-
-<br />
-
-<!-- ========================================== -->
-<!-- 3. AUGMENTED TOOLKIT (Sleek Black/Neon)    -->
+<!-- 2. AUGMENTED TOOLKIT (Sleek Black/Neon)    -->
 <!-- ========================================== -->
 <!-- 
   Design Note: These use a "Black on Black" style with Neon Purple logos.
@@ -44,7 +31,7 @@
 <br />
 
 <!-- ========================================== -->
-<!-- 4. CONTINUOUS TELEMETRY (The Snake)        -->
+<!-- 3. CONTINUOUS TELEMETRY (The Snake)        -->
 <!-- ========================================== -->
 <!-- No clunky stat boxes. Just pure, moving data visualization. -->
 <div align="center">
