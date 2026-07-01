@@ -1,44 +1,36 @@
 name: generate-dark-core-snake
 
 on:
-  # Run automatically every day at 00:30 to avoid GitHub Actions midnight server lag
   schedule:
     - cron: "30 0 * * *" 
-  # Allow manual trigger from the Actions tab
   workflow_dispatch:
-  # Run on every push to the main branch
   push:
     branches:
     - main
 
 jobs:
   generate:
-    # Explicitly grant write permissions to the GITHUB_TOKEN
     permissions: 
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
     
     steps:
-      - name: Generate Custom Cyberpunk Snake
-        # Using the main v3 action (more robust than svg-only)
+      - name: Generate Dynamic Mathematical Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            # 1. Standard Light Mode (fallback)
+            # 1. Standard Light Mode (Required so the image doesn't break for light-mode users)
             dist/github-contribution-grid-snake.svg?color_bg=transparent
-            # 2. Standard Dark Mode
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_bg=transparent
-            # 3. Your custom Cyberpunk Theme (with transparent background so it floats on your profile)
-            dist/github-contribution-grid-snake-cyberpunk.svg?color_snake=#00D1FF&color_dots=#161b22,#1c1624,#430075,#7d00b3,#bd00ff&color_bg=transparent
+            # 2. Your Dynamic Matrix/Cyberpunk Snake
+            dist/github-contribution-grid-snake-dynamic.svg?color_snake=#FF0055&color_dots=#0d1117,#003344,#006688,#0099CC,#00E5FF&color_bg=transparent
           
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          # Adds a clean commit message to keep your repo history professional
-          commit_message: "chore: update animated cyberpunk snake [skip ci]"
+          commit_message: "chore: update dynamic math snake [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
