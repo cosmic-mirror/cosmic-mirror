@@ -38,14 +38,15 @@
 <!-- No clunky stat boxes. Just pure, moving data visualization. -->
 <div align="center">
   <p align="center" style="font-family: monospace; color: #666;">
-    <code>>_ OUTPUT_NODE_ACTIVITY : CONTINUOUS</code>
+    <code>>_ OUTPUT_NODE_ACTIVITY : DYNAMIC_WAVE_ROUTING</code>
   </p>
   <picture>
-    <!-- Dark Mode Snake (Pulls the deep purple/neon blue gradient) -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spactable/spactable/output/github-contribution-grid-snake-dark.svg">
+    <!-- Dark Mode Snake (Pulls the deep neon math wave we generated) -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spactable/spactable/output/github-contribution-grid-snake-dynamic.svg">
     <!-- Light Mode Fallback -->
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/spactable/spactable/output/github-contribution-grid-snake.svg">
-    <img alt="snake animation" src="https://raw.githubusercontent.com/spactable/spactable/output/github-contribution-grid-snake.svg" />
+    <!-- General Fallback -->
+    <img alt="dynamic snake animation" src="https://raw.githubusercontent.com/spactable/spactable/output/github-contribution-grid-snake-dynamic.svg" />
   </picture>
 </div>
 
