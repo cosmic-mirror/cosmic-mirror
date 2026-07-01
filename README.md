@@ -21,10 +21,10 @@
   It creates a minimalist, flush look against GitHub's dark mode background.
 -->
 <div align="center">
-  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=BD00FF" alt="Systems thinker" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=BD00FF" alt="PKMer" />
-  <img src="https://img.shields.io/badge/Prompt_Engineering-000000?style=for-the-badge&logo=probot&logoColor=BD00FF" alt="Prompt Engineer" />
-  <img src="https://img.shields.io/badge/Systems_Design-000000?style=for-the-badge&logo=diagramsdotnet&logoColor=BD00FF" alt="Developer" />
+  <img src="https://img.shields.io/badge/Systems_Thinker-000000?style=for-the-badge&logo=sylius&logoColor=BD00FF" alt="Systems thinker" />
+  <img src="https://img.shields.io/badge/PKMer-000000?style=for-the-badge&logo=obsidian&logoColor=BD00FF" alt="PKMer" />
+  <img src="https://img.shields.io/badge/Prompt_Engineer-000000?style=for-the-badge&logo=openai&logoColor=BD00FF" alt="Prompt Engineer" />
+  <img src="https://img.shields.io/badge/Developer-000000?style=for-the-badge&logo=github&logoColor=BD00FF" alt="Developer" />
 </div>
 
 <br />
