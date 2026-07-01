@@ -1,6 +1,3 @@
-<!-- SPACER FOR VERTICAL ALIGNMENT -->
-<br />
-
 <!-- ========================================== -->
 <!-- 1. THE MONOLITH (Hero Section)             -->
 <!-- ========================================== -->
@@ -28,30 +25,3 @@
   <img src="https://img.shields.io/badge/Prompt_Engineer-000000?style=for-the-badge&logo=markdown&logoColor=BD00FF" alt="Prompt Engineer" />
   <img src="https://img.shields.io/badge/Developer-000000?style=for-the-badge&logo=github&logoColor=BD00FF" alt="Developer" />
 </div>
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
